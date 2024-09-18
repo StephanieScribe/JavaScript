@@ -1,7 +1,0 @@
-{
-    "editor.renderWhitespace": "all",
-    "editor.wordWrap": "on",
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "liveServer.settings.CustomBrowser": "chrome"
-}
