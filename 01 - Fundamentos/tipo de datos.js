@@ -30,6 +30,14 @@
 
   Es un conjunto de datos que los almacenan en una lista ordenada de elementos. Los datos dentro de los arreglos entre corchetes [] y separados por comas ,
 
+  * Object 
+
+  Es un conjunto de multiples datos en pares 'claves'-'valor'. Se escriben entre llaves {} y separados por comas ,
+
+  *Functions o Funciones 
+
+  Es un tipo de dato que puede ser "invocado". Se declaran con la palabra reservada "function" y el código que ejecutan entre llave {"codigo"}
+
 */
 
 /* Numbers */
@@ -62,7 +70,7 @@ let x; // Declarar un variable sin inicilizarla
 
 console.log(x); // Undefined 
 
-x = prompt("¿Cuál es tu número favorito?");
+// x = prompt("¿Cuál es tu número favorito?");
 
 console.log(x); // Valor que el usuario introduzca.
 
@@ -75,3 +83,36 @@ let otroArray = ["Puchunguito", 56, true];
 console.log(misFrutasFavoritas);
 console.log(misNumerosSuerte);
 console.log(otroArray);
+
+/* Objeto */
+
+let persona = {
+  // clave : valor,
+  nombre : "Stephanie",
+  edad : 22,
+  colorCabello : "castaño",
+  colorOjos : "cafés",
+  altura : 1.75,
+  peso : undefined,
+  vivo : true,
+  novio : true, 
+
+}
+
+console.log(persona);
+// Accedemos al valor de una clave dentro de una persona 
+// Con la notación de punto
+console.log(persona.nombre)
+console.log(persona.altura)
+console.log(persona.novia)
+
+/* Function */
+
+let mensajito = function () {
+  // Pasamos el código que ejecuta la función 
+  console("Este es un mensaje lanzado por una función")
+}
+
+// Invocamos la función 
+mensajito();
+
