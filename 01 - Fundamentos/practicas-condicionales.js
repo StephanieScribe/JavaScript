@@ -16,8 +16,7 @@
     promt ("¿Qué edad tienes?")
 */ 
 
-let edad = promt ("¿Qué edad tienes?");
-console.log(edad >= 18);
+let edad = prompt ("¿Qué edad tienes?");
 
 if (edad >= 18) {/* console.log */alert("Eres mayor de edad!")}
 else if (edad < 18) {/* console.log */alert("Eres menor de edad")}else{/* console.log */alert("Eres un alien 👽")}
