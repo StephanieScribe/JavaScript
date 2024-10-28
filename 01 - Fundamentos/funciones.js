@@ -6,22 +6,22 @@
 
   Conceptos de las funciones
 
-  *Definir una funcion: Creamos una funcion con un nombre y los datos que llamamos parametros(opcionales)
+  *Definir una funcion: Creamos una función con un nombre y los datos que llamamos parametros(opcionales)
 
-  *Invocamos: llamamos la funcion cuando ocuAMOS QUE SE EJECUTE SU CODIGO ES DECIR  que haga su tarea
+  *Invocamos: llamamos la función cuando ocupamos que se ejecute su código, que haga su tarea
 
-  *Retorna: Puede devolver un resultado la funcion(opcional)
+  *Retorna: Puede devolver un resultado la función (opcional)
 
   Sintaxis
 
    Funcion nombreFuncion(parametro1, parametro2, parametro3...) (//codigo que se ejecute return resultado;)
 
-   function -> es la palabra clave para declrara una funcion 
-   nombreFuncion -> Es el nombre que asignamos  a la funcion, este nombre tilizamos para invocar
+   function -> es la palabra clave para declarar una funcion 
+   nombreFuncion -> Es el nombre que asignamos a la funcion, este nombre utilizamos para invocar.
 
-   parm1, parm2 ... -> Son los datos que le paásamos a la funcion para que trabaje con elllos en su bloque de codigo
+   parm1, parm2 ... -> Son los datos que le pasamos a la función para que trabaje con ellos en su bloque de código.
 
-   cuerpo de la funcion -> el codigo que ejecuta y realiza la tarea de la funcion
+   cuerpo de la funcion -> el código que ejecuta y realiza la tarea de la funcion.
   
    return -> devuelve o retorna  un resultado (opcional)
 */
