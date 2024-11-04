@@ -15,7 +15,7 @@
     Este bucle tiene 3 partes clave:
 
     1. Inicialización de una variable.
-    2. Conción que evalúa el valor de la variable.
+    2. Condición que evalúa el valor de la variable.
     3. Actualización del valor de la variable.
 
     Sintaxis
