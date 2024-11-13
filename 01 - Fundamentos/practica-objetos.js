@@ -32,35 +32,32 @@
 
 */
 
-class Armas {
+class Arma {
     constructor(nombre, tipo, daño) {
         this.nombre = nombre;
         this.tipo = tipo;
         this.daño = daño;
     }
-
-    describir () {
-        console.log(`Arma: $(this.nombre) /Tipo: $(this.tipo) /Daño $(this.daño)` )
+    descripcion () {
+        console.log(`Arma: ${this.nombre} | Tipo: ${this.tipo} | Daño: ${this.daño}` )
     }
 }
 
-let armas1 = new Armas ("Cañón", "Bombas", "Revolver", 1000);
+let arma1 = new Arma("Cañón","arma de fuego",300);
+let arma2 = new Arma("Bombas","arma de fuego",500);
+let arma3 = new Arma("Revolver","arma de fuego",400);
 
 let arsenal = {
-    Armas: [],
-    agregarArma (Armas){
-        this.Armas.push(Armas);
+    armas : [],
+
+    agregarArma : function(arma){
+        this.armas.push(arma);
     }
 }
-
-let arma1 = new Armas ("Cañón", "arma de fuego", 300);
-let arma2 = new Armas ("Bombas", "arma de fuego", 500);
-let arma3 = new Armas ("Revolver", "arma de fuego", 400);
-
   
-arsenal.agregarArma(arma1)
-arsenal.agregarArma(arma2)
-arsenal.agregarArma(arma3)
+arsenal.agregarArma(arma1);
+arsenal.agregarArma(arma2);
+arsenal.agregarArma(arma3);
 
 /* 
 for (let i = 0; i < arsenal.armas.lenght; i++) {
@@ -68,6 +65,6 @@ for (let i = 0; i < arsenal.armas.lenght; i++) {
 }     
 */
 
-for (let arma of arsenal.Armas){
-    console.log(arma)
+for (let i = 0; i <= 2; i++){
+    arsenal.armas[i].descripcion()
 }
